@@ -1,0 +1,63 @@
+.map{
+    background-color: white;
+    width: 99%;
+    height: 98%;
+    margin: 0;
+    position:absolute;
+}
+
+html{
+    padding: 0;
+    height: 100%;
+}
+.search{
+    background-color: white;
+    width: 235px;
+    height: 82px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px 10px / 10px 10px;
+    margin-top: 6px;
+    margin-left: 6px;
+    padding: 10px;
+    position: absolute;
+}
+
+#button{
+    margin-top: 92px;
+    margin-left: 6px;
+    position: absolute;
+}
+
+button{
+    background-color: white;
+    border-radius: 10px 10px / 10px 10px;
+    border: 1px solid black;
+
+}
+
+div #result{
+    background-color: white;
+    width: 235px;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 0px solid black;
+    border-radius: 10px 10px / 10px 10px;
+    margin-top: 92px;
+    margin-left: 6px;
+    position: absolute;
+}
+
+p{
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+#close{
+    float: right;
+    background-color:white;
+    border: 0px;
+}
+
+
+

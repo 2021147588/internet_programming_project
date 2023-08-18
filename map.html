@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>simpleMap</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script	src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx699139287629467e9aeb4001b760cb68"></script>
+	<script type="text/javascript" src="map.js"></script>
+	<link rel="stylesheet" type="text/css" href="map.css">
+</head>
+<body onload="startMap();">
+		<div id="section">
+			<div id="map" class="map">
+				<div id="map_div"></div>
+			</div>
+			<div id="search" class="search">
+				<section id="box">
+					<p>출발: <input type="text" class="text_custom" id="depart"
+						name="depart" value = "서울시 서대문구 연희동 125-3번지 1층 중앙점포 서대문구 서울특별시 KR연희로93" placeholder="출발지를 입력하세요">	</p>
+					<p>도착: <input type="text" class="text_custom" id="arrive"
+						name="arrive" value = "연희동 106-26번지 1층 서대문구 서울특별시 KR" placeholder="도착지를 입력하세요"></p>
+				</section>
+			</div>
+			<div id="button">
+				<button onclick="findWay()">길찾기</button>
+				<button onclick="loadAll()">CCTV 위치</button>
+			</div>
+
+			<div id="result">
+				<p id="result"></p>				
+			</div>
+		</div>
+		<br />
+</body>
+</html>
